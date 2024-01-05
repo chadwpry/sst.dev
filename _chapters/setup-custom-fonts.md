@@ -18,7 +18,7 @@ For our project we'll be using the combination of a Serif ([PT Serif](https://fo
 
 Let's first include them in the HTML. Our React.js app is using a single HTML file.
 
-{%change%} Edit `public/index.html` and add the following line in the `<head>` section of the HTML to include the two typefaces.
+{%change%} Edit `index.html` and add the following line in the `<head>` section of the HTML to include the two typefaces.
 
 ``` html
 <link
