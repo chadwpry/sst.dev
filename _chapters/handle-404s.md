@@ -46,7 +46,7 @@ Now we just need to add this component to our routes to handle our 404s.
 
 ```tsx
 {/* Finally, catch all unmatched routes */}
-<Route path="*" element={<NotFound />} />;
+<Route path="*" element={<NotFound />} />
 ```
 
 This needs to always be the last route in the `<Routes>` block. You can think of it as the route that handles requests in case all the other routes before it have failed.
